@@ -69,4 +69,13 @@ public class Action {
         }
     }
 
+    public void viewcontact(newLinkedList linkedList1) {
+        System.out.println("Here are all your contacts");
+        if (!linkedList1.isEmpty()) {
+            linkedList1.display();
+        } else {
+            System.out.println("No Results Found");
+        }
+    }
+
 }
